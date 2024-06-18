@@ -1,0 +1,1 @@
+<iframe src="{{$viewpdf->file_path}}" title="description" style="width:100%;height:100%;"></iframe>

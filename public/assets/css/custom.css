@@ -1,0 +1,4 @@
+.mb-4::-webkit-scrollbar {
+    display: none !important;
+}
+table .btn{ padding: 0.4375rem .5rem !important}

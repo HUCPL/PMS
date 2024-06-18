@@ -1,0 +1,24 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "npm run development",
+        "build": "vite build",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "build:dev": "APP_ENV=development vite build",
+        "build:prod": "APP_ENV=production vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-echo": "^1.15.3",
+        "laravel-mix": "^6.0.49",
+        "laravel-vite-plugin": "^0.8.0",
+        "pusher-js": "^8.3.0",
+        "vite": "^4.0.0"
+    }
+}
